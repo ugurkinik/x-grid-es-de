@@ -1,0 +1,76 @@
+<themeCapabilities>
+    <themeName>X-Grid</themeName>
+
+    <aspectRatio>16:9</aspectRatio>
+    <aspectRatio>16:10</aspectRatio>
+    <aspectRatio>4:3</aspectRatio>
+
+    <colorScheme name="monochrome">
+        <label>Monochrome</label>
+    </colorScheme>
+    <colorScheme name="dark-orange">
+        <label>Dark Orange</label>
+    </colorScheme>
+    <colorScheme name="light-orange">
+        <label>Light Orange</label>
+    </colorScheme>
+    <colorScheme name="pip-boy">
+        <label>Pip-Boy</label>
+    </colorScheme>
+    <colorScheme name="pocket-gray">
+        <label>Pocket Gray</label>
+    </colorScheme>
+    <colorScheme name="sgb-1">
+        <label>Super Game Boy</label>
+    </colorScheme>
+    <colorScheme name="ps4">
+        <label>PlayStation 4</label>
+    </colorScheme>
+    <colorScheme name="ps5">
+        <label>PlayStation 5</label>
+    </colorScheme>
+    <colorScheme name="xbox-360">
+        <label>Xbox 360</label>
+    </colorScheme>
+    <colorScheme name="xbox-one">
+        <label>Xbox One</label>
+    </colorScheme>
+    <colorScheme name="switch-oled">
+        <label>Switch OLED</label>
+    </colorScheme>
+    <colorScheme name="gamecube">
+        <label>Gamecube</label>
+    </colorScheme>
+    <colorScheme name="wii">
+        <label>WII</label>
+    </colorScheme>
+
+    <fontSize>small</fontSize>
+    <fontSize>medium</fontSize>
+    <fontSize>large</fontSize>
+
+    <variant name="sm-gs">
+        <label>[System:M] [Game:S]</label>
+        <selectable>true</selectable>
+    </variant>
+    <variant name="sm-gm">
+        <label>[System:M] [Game:M]</label>
+        <selectable>true</selectable>
+    </variant>
+    <variant name="sm-gl">
+        <label>[System:M] [Game:L]</label>
+        <selectable>true</selectable>
+    </variant>
+    <variant name="sl-gs">
+        <label>[System:L] [Game:S]</label>
+        <selectable>true</selectable>
+    </variant>
+    <variant name="sl-gm">
+        <label>[System:L] [Game:M]</label>
+        <selectable>true</selectable>
+    </variant>
+    <variant name="sl-gl">
+        <label>[System:L] [Game:L]</label>
+        <selectable>true</selectable>
+    </variant>
+</themeCapabilities>

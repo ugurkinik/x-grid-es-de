@@ -1,0 +1,41 @@
+<theme>
+    <variables>
+        <fontStatus>0.02</fontStatus>
+        <fontHelp>0.014</fontHelp>
+        <fontGrid>0.024</fontGrid>
+        <fontMetaLabel>0.013</fontMetaLabel>
+        <fontMetaValue>0.018</fontMetaValue>
+        <fontDescription>0.018</fontDescription>
+    </variables>
+
+    <fontSize name="small">
+        <variables>
+            <fontStatus>0.018</fontStatus>
+            <fontHelp>0.012</fontHelp>
+            <fontGrid>0.02</fontGrid>
+            <fontMetaLabel>0.012</fontMetaLabel>
+            <fontMetaValue>0.015</fontMetaValue>
+            <fontDescription>0.016</fontDescription>
+        </variables>
+    </fontSize>
+    <fontSize name="medium">
+        <variables>
+            <fontStatus>0.02</fontStatus>
+            <fontHelp>0.014</fontHelp>
+            <fontGrid>0.024</fontGrid>
+            <fontMetaLabel>0.013</fontMetaLabel>
+            <fontMetaValue>0.018</fontMetaValue>
+            <fontDescription>0.018</fontDescription>
+        </variables>
+    </fontSize>
+    <fontSize name="large">
+        <variables>
+            <fontStatus>0.022</fontStatus>
+            <fontHelp>0.016</fontHelp>
+            <fontGrid>0.028</fontGrid>
+            <fontMetaLabel>0.015</fontMetaLabel>
+            <fontMetaValue>0.020</fontMetaValue>
+            <fontDescription>0.02</fontDescription>
+        </variables>
+    </fontSize>
+</theme>

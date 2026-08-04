@@ -1,0 +1,263 @@
+<theme>
+    <include>./system-metadata/_default.xml</include>
+    <include>./system-metadata/${system.theme}.xml</include>
+    <include>./sizes.xml</include>
+
+    <variables>
+        <systemGridImage>./system-logos/system-logo-color/${system.theme}.svg</systemGridImage>
+        <systemGridDefault>./system-logos/system-logo-color/emulators.svg</systemGridDefault>
+        <systemGridItemSize>0.221333 0.055</systemGridItemSize>
+        <systemGridSpacing>0.008 0.01</systemGridSpacing>
+        <gamelistGridItemSize>0.221333 0.055</gamelistGridItemSize>
+        <gamelistGridSpacing>0.008 0.01</gamelistGridSpacing>
+        <panelColor>1C1B1AF0</panelColor>
+        <panelSolid>1C1B1A</panelSolid>
+        <borderColor>2E2C29</borderColor>
+        <bgTint>0A0A09</bgTint>
+        <textPrimary>FF8A3D</textPrimary>
+        <textSelected>FFE5D4</textSelected>
+        <selectorBorder>8E8077</selectorBorder>
+        <textSecondary>D9793A</textSecondary>
+        <textMuted>8A4E28</textMuted>
+        <statusColor>FF8A3D</statusColor>
+    </variables>
+
+    <colorScheme name="monochrome">
+        <variables>
+            <panelColor>141414F0</panelColor>
+            <panelSolid>141414</panelSolid>
+            <borderColor>2E2E2E</borderColor>
+            <bgTint>000000</bgTint>
+            <textPrimary>A8A8A8</textPrimary>
+            <textSelected>FFFFFF</textSelected>
+            <selectorBorder>8A8A8A</selectorBorder>
+            <textSecondary>A0A0A0</textSecondary>
+            <textMuted>707070</textMuted>
+            <statusColor>FFFFFF</statusColor>
+        </variables>
+    </colorScheme>
+    <colorScheme name="dark-orange">
+        <variables>
+            <panelColor>1C1B1AF0</panelColor>
+            <panelSolid>1C1B1A</panelSolid>
+            <borderColor>2E2C29</borderColor>
+            <bgTint>0A0A09</bgTint>
+            <textPrimary>FF8A3D</textPrimary>
+            <textSelected>FFE5D4</textSelected>
+            <selectorBorder>8E8077</selectorBorder>
+            <textSecondary>D9793A</textSecondary>
+            <textMuted>8A4E28</textMuted>
+            <statusColor>FF8A3D</statusColor>
+        </variables>
+    </colorScheme>
+    <colorScheme name="light-orange">
+        <variables>
+            <panelColor>FFFFFFF0</panelColor>
+            <panelSolid>FFFFFF</panelSolid>
+            <borderColor>D1D5DB</borderColor>
+            <bgTint>E5E7EB</bgTint>
+            <textPrimary>D95A00</textPrimary>
+            <textSelected>2A1000</textSelected>
+            <selectorBorder>948880</selectorBorder>
+            <textSecondary>B45309</textSecondary>
+            <textMuted>9A6A3A</textMuted>
+            <statusColor>D95A00</statusColor>
+        </variables>
+    </colorScheme>
+    <colorScheme name="pip-boy">
+        <variables>
+            <panelColor>0E1A12F0</panelColor>
+            <panelSolid>0E1A12</panelSolid>
+            <borderColor>183B22</borderColor>
+            <bgTint>030604</bgTint>
+            <textPrimary>1AFF80</textPrimary>
+            <textSelected>C8FFDF</textSelected>
+            <selectorBorder>6B8C78</selectorBorder>
+            <textSecondary>12B85B</textSecondary>
+            <textMuted>0B6632</textMuted>
+            <statusColor>1AFF80</statusColor>
+        </variables>
+    </colorScheme>
+    <colorScheme name="pocket-gray">
+        <variables>
+            <panelColor>C4CFA1F0</panelColor>
+            <panelSolid>C4CFA1</panelSolid>
+            <borderColor>8B956D</borderColor>
+            <bgTint>E3ECC4</bgTint>
+            <textPrimary>141414</textPrimary>
+            <textSelected>3F4A28</textSelected>
+            <selectorBorder>828C64</selectorBorder>
+            <textSecondary>3A3F2C</textSecondary>
+            <textMuted>5C6345</textMuted>
+            <statusColor>141414</statusColor>
+        </variables>
+    </colorScheme>
+    <colorScheme name="sgb-1">
+        <variables>
+            <panelColor>302010F0</panelColor>
+            <panelSolid>302010</panelSolid>
+            <borderColor>684010</borderColor>
+            <bgTint>100800</bgTint>
+            <textPrimary>F8B800</textPrimary>
+            <textSelected>FDEFC7</textSelected>
+            <selectorBorder>96886C</selectorBorder>
+            <textSecondary>D9A010</textSecondary>
+            <textMuted>8A6810</textMuted>
+            <statusColor>F8B800</statusColor>
+        </variables>
+    </colorScheme>
+    <colorScheme name="ps4">
+        <variables>
+            <panelColor>0F192CF0</panelColor>
+            <panelSolid>0F192C</panelSolid>
+            <borderColor>1E2F52</borderColor>
+            <bgTint>04070D</bgTint>
+            <textPrimary>5BA3E8</textPrimary>
+            <textSelected>DBEBFA</textSelected>
+            <selectorBorder>758293</selectorBorder>
+            <textSecondary>3D7AB8</textSecondary>
+            <textMuted>2A5080</textMuted>
+            <statusColor>5BA3E8</statusColor>
+        </variables>
+    </colorScheme>
+    <colorScheme name="ps5">
+        <variables>
+            <panelColor>FFFFFFF0</panelColor>
+            <panelSolid>FFFFFF</panelSolid>
+            <borderColor>E2E8F0</borderColor>
+            <bgTint>EEF2F6</bgTint>
+            <textPrimary>00439C</textPrimary>
+            <textSelected>001533</textSelected>
+            <selectorBorder>808A99</selectorBorder>
+            <textSecondary>1E4F9A</textSecondary>
+            <textMuted>5B7BB0</textMuted>
+            <statusColor>00439C</statusColor>
+        </variables>
+    </colorScheme>
+    <colorScheme name="xbox-360">
+        <variables>
+            <panelColor>E2E7ECF0</panelColor>
+            <panelSolid>E2E7EC</panelSolid>
+            <borderColor>C5D0DC</borderColor>
+            <bgTint>D0D9E2</bgTint>
+            <textPrimary>2F7A28</textPrimary>
+            <textSelected>071808</textSelected>
+            <selectorBorder>74807A</selectorBorder>
+            <textSecondary>3D6B38</textSecondary>
+            <textMuted>5A7A52</textMuted>
+            <statusColor>2F7A28</statusColor>
+        </variables>
+    </colorScheme>
+    <colorScheme name="xbox-one">
+        <variables>
+            <panelColor>1F1F1FF0</panelColor>
+            <panelSolid>1F1F1F</panelSolid>
+            <borderColor>333333</borderColor>
+            <bgTint>0A0A0A</bgTint>
+            <textPrimary>3DDB7A</textPrimary>
+            <textSelected>D4F7E2</textSelected>
+            <selectorBorder>7A8B80</selectorBorder>
+            <textSecondary>2AA85C</textSecondary>
+            <textMuted>1A6840</textMuted>
+            <statusColor>3DDB7A</statusColor>
+        </variables>
+    </colorScheme>
+    <colorScheme name="switch-oled">
+        <variables>
+            <panelColor>2D2D2DF0</panelColor>
+            <panelSolid>2D2D2D</panelSolid>
+            <borderColor>444444</borderColor>
+            <bgTint>121212</bgTint>
+            <textPrimary>FF6B5C</textPrimary>
+            <textSelected>FFDEDB</textSelected>
+            <selectorBorder>968684</selectorBorder>
+            <textSecondary>D94E42</textSecondary>
+            <textMuted>8A3830</textMuted>
+            <statusColor>FF6B5C</statusColor>
+        </variables>
+    </colorScheme>
+    <colorScheme name="gamecube">
+        <variables>
+            <panelColor>1D1B2CF0</panelColor>
+            <panelSolid>1D1B2C</panelSolid>
+            <borderColor>393559</borderColor>
+            <bgTint>09080E</bgTint>
+            <textPrimary>9B8CE8</textPrimary>
+            <textSelected>E9E6FA</textSelected>
+            <selectorBorder>838093</selectorBorder>
+            <textSecondary>7A6CC4</textSecondary>
+            <textMuted>544F78</textMuted>
+            <statusColor>9B8CE8</statusColor>
+        </variables>
+    </colorScheme>
+    <colorScheme name="wii">
+        <variables>
+            <panelColor>FFFFFFF0</panelColor>
+            <panelSolid>FFFFFF</panelSolid>
+            <borderColor>D0D7DE</borderColor>
+            <bgTint>E9EFF2</bgTint>
+            <textPrimary>0080B8</textPrimary>
+            <textSelected>001C2E</textSelected>
+            <selectorBorder>808E96</selectorBorder>
+            <textSecondary>1A6A90</textSecondary>
+            <textMuted>5A8AA0</textMuted>
+            <statusColor>0080B8</statusColor>
+        </variables>
+    </colorScheme>
+
+    <variant name="sm-gs">
+        <variables>
+            <systemGridItemSize>0.221333 0.055</systemGridItemSize>
+            <systemGridSpacing>0.008 0.01</systemGridSpacing>
+            <gamelistGridItemSize>0.164 0.042</gamelistGridItemSize>
+            <gamelistGridSpacing>0.008 0.008</gamelistGridSpacing>
+        </variables>
+        <include>./layout.xml</include>
+    </variant>
+    <variant name="sm-gm">
+        <variables>
+            <systemGridItemSize>0.221333 0.055</systemGridItemSize>
+            <systemGridSpacing>0.008 0.01</systemGridSpacing>
+            <gamelistGridItemSize>0.221333 0.055</gamelistGridItemSize>
+            <gamelistGridSpacing>0.008 0.01</gamelistGridSpacing>
+        </variables>
+        <include>./layout.xml</include>
+    </variant>
+    <variant name="sm-gl">
+        <variables>
+            <systemGridItemSize>0.221333 0.055</systemGridItemSize>
+            <systemGridSpacing>0.008 0.01</systemGridSpacing>
+            <gamelistGridItemSize>0.336 0.07</gamelistGridItemSize>
+            <gamelistGridSpacing>0.008 0.012</gamelistGridSpacing>
+        </variables>
+        <include>./layout.xml</include>
+    </variant>
+    <variant name="sl-gs">
+        <variables>
+            <systemGridItemSize>0.336 0.07</systemGridItemSize>
+            <systemGridSpacing>0.008 0.012</systemGridSpacing>
+            <gamelistGridItemSize>0.164 0.042</gamelistGridItemSize>
+            <gamelistGridSpacing>0.008 0.008</gamelistGridSpacing>
+        </variables>
+        <include>./layout.xml</include>
+    </variant>
+    <variant name="sl-gm">
+        <variables>
+            <systemGridItemSize>0.336 0.07</systemGridItemSize>
+            <systemGridSpacing>0.008 0.012</systemGridSpacing>
+            <gamelistGridItemSize>0.221333 0.055</gamelistGridItemSize>
+            <gamelistGridSpacing>0.008 0.01</gamelistGridSpacing>
+        </variables>
+        <include>./layout.xml</include>
+    </variant>
+    <variant name="sl-gl">
+        <variables>
+            <systemGridItemSize>0.336 0.07</systemGridItemSize>
+            <systemGridSpacing>0.008 0.012</systemGridSpacing>
+            <gamelistGridItemSize>0.336 0.07</gamelistGridItemSize>
+            <gamelistGridSpacing>0.008 0.012</gamelistGridSpacing>
+        </variables>
+        <include>./layout.xml</include>
+    </variant>
+
+</theme>

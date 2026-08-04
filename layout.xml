@@ -1,0 +1,446 @@
+<theme>
+    <variables>
+        <fontRegular>./assets/fonts/Roboto-Regular.ttf</fontRegular>
+        <fontBold>./assets/fonts/Roboto-Bold.ttf</fontBold>
+    </variables>
+
+    <view name="system, gamelist">
+        <image name="background">
+            <pos>0 0</pos>
+            <size>1 1</size>
+            <path>./assets/images/background.png</path>
+            <color>${bgTint}</color>
+            <tile>false</tile>
+            <zIndex>0</zIndex>
+        </image>
+
+        <image name="statusPanelBorder">
+            <pos>0.02 0.015</pos>
+            <size>0.96 0.05</size>
+            <path>./assets/images/pixel.png</path>
+            <color>${borderColor}</color>
+            <cornerRadius>0.006</cornerRadius>
+            <stationary>always</stationary>
+            <zIndex>19</zIndex>
+        </image>
+        <image name="statusPanel">
+            <pos>0.0216 0.0175</pos>
+            <size>0.9568 0.045</size>
+            <path>./assets/images/pixel.png</path>
+            <color>${panelColor}</color>
+            <cornerRadius>0.005</cornerRadius>
+            <stationary>always</stationary>
+            <zIndex>20</zIndex>
+        </image>
+
+        <systemstatus name="statusBar">
+            <pos>0.96 0.04</pos>
+            <origin>1 0.5</origin>
+            <height>0.022</height>
+            <color>${statusColor}</color>
+            <entries>all</entries>
+            <entrySpacing>0.006</entrySpacing>
+            <fontPath>${fontRegular}</fontPath>
+            <textRelativeScale>0.85</textRelativeScale>
+            <scope>view</scope>
+        </systemstatus>
+
+        <text name="statusSystemName">
+            <pos>0.04 0.04</pos>
+            <origin>0 0.5</origin>
+            <size>0.42 0.035</size>
+            <text>${systemManufacturer} (${systemReleaseYear}) - ${system.fullName}</text>
+            <fontPath>${fontRegular}</fontPath>
+            <fontSize>${fontStatus}</fontSize>
+            <color>${statusColor}</color>
+            <horizontalAlignment>left</horizontalAlignment>
+            <verticalAlignment>center</verticalAlignment>
+            <stationary>always</stationary>
+            <zIndex>60</zIndex>
+        </text>
+
+        <helpsystem name="help">
+            <pos>0.02 0.972</pos>
+            <fontPath>${fontRegular}</fontPath>
+            <fontSize>${fontHelp}</fontSize>
+            <textColor>${statusColor}</textColor>
+            <iconColor>${statusColor}</iconColor>
+            <textColorDimmed>${textMuted}</textColorDimmed>
+            <iconColorDimmed>${textMuted}</iconColorDimmed>
+        </helpsystem>
+    </view>
+
+    <view name="system">
+        <image name="systemInfoPanelBorder">
+            <pos>0.02 0.085</pos>
+            <size>0.26 0.845</size>
+            <path>./assets/images/pixel.png</path>
+            <color>${borderColor}</color>
+            <cornerRadius>0.006</cornerRadius>
+            <zIndex>19</zIndex>
+        </image>
+        <image name="systemInfoPanel">
+            <pos>0.0216 0.0875</pos>
+            <size>0.2568 0.840</size>
+            <path>./assets/images/pixel.png</path>
+            <color>${panelColor}</color>
+            <cornerRadius>0.005</cornerRadius>
+            <zIndex>20</zIndex>
+        </image>
+
+        <image name="systemLogo">
+            <pos>0.15 0.186</pos>
+            <origin>0.5 0.5</origin>
+            <maxSize>0.22 0.11</maxSize>
+            <path>${systemGridImage}</path>
+            <default>${systemGridDefault}</default>
+            <zIndex>60</zIndex>
+        </image>
+
+        <text name="sysMetaManufacturerLabel">
+            <pos>0.09 0.285</pos>
+            <origin>0.5 0</origin>
+            <size>0.08 0.02</size>
+            <text>Maker</text>
+            <fontPath>${fontRegular}</fontPath>
+            <fontSize>${fontMetaLabel}</fontSize>
+            <color>${textMuted}</color>
+            <letterCase>uppercase</letterCase>
+            <horizontalAlignment>center</horizontalAlignment>
+            <zIndex>60</zIndex>
+        </text>
+        <text name="sysMetaManufacturer">
+            <pos>0.09 0.318</pos>
+            <origin>0.5 0</origin>
+            <size>0.08 0.025</size>
+            <text>${systemManufacturer}</text>
+            <fontPath>${fontRegular}</fontPath>
+            <fontSize>${fontMetaValue}</fontSize>
+            <color>${textSecondary}</color>
+            <horizontalAlignment>center</horizontalAlignment>
+            <zIndex>60</zIndex>
+        </text>
+
+        <text name="sysMetaYearLabel">
+            <pos>0.15 0.285</pos>
+            <origin>0.5 0</origin>
+            <size>0.07 0.02</size>
+            <text>Year</text>
+            <fontPath>${fontRegular}</fontPath>
+            <fontSize>${fontMetaLabel}</fontSize>
+            <color>${textMuted}</color>
+            <letterCase>uppercase</letterCase>
+            <horizontalAlignment>center</horizontalAlignment>
+            <zIndex>60</zIndex>
+        </text>
+        <text name="sysMetaYear">
+            <pos>0.15 0.318</pos>
+            <origin>0.5 0</origin>
+            <size>0.07 0.025</size>
+            <text>${systemReleaseYear}</text>
+            <fontPath>${fontBold}</fontPath>
+            <fontSize>${fontMetaValue}</fontSize>
+            <color>${textPrimary}</color>
+            <horizontalAlignment>center</horizontalAlignment>
+            <zIndex>60</zIndex>
+        </text>
+
+        <text name="sysMetaTypeLabel">
+            <pos>0.21 0.285</pos>
+            <origin>0.5 0</origin>
+            <size>0.08 0.02</size>
+            <text>Type</text>
+            <fontPath>${fontRegular}</fontPath>
+            <fontSize>${fontMetaLabel}</fontSize>
+            <color>${textMuted}</color>
+            <letterCase>uppercase</letterCase>
+            <horizontalAlignment>center</horizontalAlignment>
+            <zIndex>60</zIndex>
+        </text>
+        <text name="sysMetaType">
+            <pos>0.21 0.318</pos>
+            <origin>0.5 0</origin>
+            <size>0.08 0.025</size>
+            <text>${systemHardwareType}</text>
+            <fontPath>${fontRegular}</fontPath>
+            <fontSize>${fontMetaValue}</fontSize>
+            <color>${textSecondary}</color>
+            <horizontalAlignment>center</horizontalAlignment>
+            <zIndex>60</zIndex>
+        </text>
+
+        <image name="systemController">
+            <pos>0.15 0.385</pos>
+            <origin>0.5 0</origin>
+            <maxSize>0.22 0.14</maxSize>
+            <path>./system-controllers-outline/${system.theme}.svg</path>
+            <default>./assets/images/transparent.png</default>
+            <color>${textSecondary}</color>
+            <zIndex>60</zIndex>
+        </image>
+
+        <text name="systemDescription">
+            <pos>0.15 0.560</pos>
+            <origin>0.5 0</origin>
+            <size>0.22 0.300</size>
+            <text>${systemDescription}</text>
+            <fontPath>${fontRegular}</fontPath>
+            <fontSize>${fontDescription}</fontSize>
+            <color>${textSecondary}</color>
+            <horizontalAlignment>center</horizontalAlignment>
+            <container>true</container>
+            <containerType>vertical</containerType>
+            <zIndex>60</zIndex>
+        </text>
+
+        <text name="panelGamesIcon">
+            <pos>0.12 0.905</pos>
+            <origin>1 0.5</origin>
+            <size>0 0</size>
+            <text>&#xf11b; </text>
+            <fontPath>${fontRegular}</fontPath>
+            <fontSize>${fontMetaValue}</fontSize>
+            <color>${textPrimary}</color>
+            <horizontalAlignment>right</horizontalAlignment>
+            <verticalAlignment>center</verticalAlignment>
+            <zIndex>60</zIndex>
+        </text>
+        <text name="panelGamesCount">
+            <pos>0.12 0.905</pos>
+            <origin>0 0.5</origin>
+            <size>0 0</size>
+            <systemdata>gamecountGamesNoText</systemdata>
+            <fontPath>${fontRegular}</fontPath>
+            <fontSize>${fontMetaValue}</fontSize>
+            <color>${textPrimary}</color>
+            <horizontalAlignment>left</horizontalAlignment>
+            <verticalAlignment>center</verticalAlignment>
+            <zIndex>60</zIndex>
+        </text>
+        <text name="panelFavoriteIcon">
+            <pos>0.18 0.905</pos>
+            <origin>1 0.5</origin>
+            <size>0 0</size>
+            <text>&#xf005; </text>
+            <fontPath>${fontRegular}</fontPath>
+            <fontSize>${fontMetaValue}</fontSize>
+            <color>${textPrimary}</color>
+            <horizontalAlignment>right</horizontalAlignment>
+            <verticalAlignment>center</verticalAlignment>
+            <zIndex>60</zIndex>
+        </text>
+        <text name="panelFavoritesCount">
+            <pos>0.18 0.905</pos>
+            <origin>0 0.5</origin>
+            <size>0 0</size>
+            <systemdata>gamecountFavoritesNoText</systemdata>
+            <fontPath>${fontRegular}</fontPath>
+            <fontSize>${fontMetaValue}</fontSize>
+            <color>${textPrimary}</color>
+            <horizontalAlignment>left</horizontalAlignment>
+            <verticalAlignment>center</verticalAlignment>
+            <zIndex>60</zIndex>
+        </text>
+
+        <grid name="systemGrid">
+            <pos>0.30 0.085</pos>
+            <size>0.68 0.845</size>
+            <origin>0 0</origin>
+            <itemSize>${systemGridItemSize}</itemSize>
+            <itemScale>1.0</itemScale>
+            <itemSpacing>${systemGridSpacing}</itemSpacing>
+            <fractionalRows>true</fractionalRows>
+            <itemTransitions>animate</itemTransitions>
+            <rowTransitions>animate</rowTransitions>
+            <unfocusedItemOpacity>1</unfocusedItemOpacity>
+            <unfocusedItemDimming>1</unfocusedItemDimming>
+            <backgroundColor>${panelSolid}</backgroundColor>
+            <backgroundCornerRadius>0.006</backgroundCornerRadius>
+            <backgroundRelativeScale>1.0</backgroundRelativeScale>
+            <selectorImage>./assets/images/selector-border.svg</selectorImage>
+            <selectorColor>${selectorBorder}</selectorColor>
+            <selectorRelativeScale>1.0</selectorRelativeScale>
+            <selectorLayer>top</selectorLayer>
+            <selectorCornerRadius>0.006</selectorCornerRadius>
+            <textRelativeScale>0.92</textRelativeScale>
+            <textColor>${textPrimary}</textColor>
+            <textBackgroundColor>${panelSolid}</textBackgroundColor>
+            <textSelectedColor>${textSelected}</textSelectedColor>
+            <textSelectedBackgroundColor>00000000</textSelectedBackgroundColor>
+            <textBackgroundCornerRadius>0.006</textBackgroundCornerRadius>
+            <fontPath>${fontBold}</fontPath>
+            <fontSize>${fontGrid}</fontSize>
+            <letterCase>none</letterCase>
+            <lineSpacing>1.15</lineSpacing>
+            <textHorizontalScrolling>true</textHorizontalScrolling>
+            <fadeAbovePrimary>true</fadeAbovePrimary>
+            <zIndex>50</zIndex>
+        </grid>
+    </view>
+
+    <view name="gamelist">
+        <image name="infoPanelBorder">
+            <pos>0.02 0.085</pos>
+            <size>0.26 0.845</size>
+            <path>./assets/images/pixel.png</path>
+            <color>${borderColor}</color>
+            <cornerRadius>0.006</cornerRadius>
+            <zIndex>19</zIndex>
+        </image>
+        <image name="infoPanel">
+            <pos>0.0216 0.0875</pos>
+            <size>0.2568 0.840</size>
+            <path>./assets/images/pixel.png</path>
+            <color>${panelColor}</color>
+            <cornerRadius>0.005</cornerRadius>
+            <zIndex>20</zIndex>
+        </image>
+
+        <image name="gameLogo">
+            <pos>0.15 0.186</pos>
+            <origin>0.5 0.5</origin>
+            <maxSize>0.22 0.11</maxSize>
+            <imageType>marquee</imageType>
+            <zIndex>60</zIndex>
+        </image>
+
+        <text name="metaGenreLabel">
+            <pos>0.09 0.285</pos>
+            <origin>0.5 0</origin>
+            <size>0.08 0.02</size>
+            <text>Genre</text>
+            <fontPath>${fontRegular}</fontPath>
+            <fontSize>${fontMetaLabel}</fontSize>
+            <color>${textMuted}</color>
+            <letterCase>uppercase</letterCase>
+            <horizontalAlignment>center</horizontalAlignment>
+            <metadataElement>true</metadataElement>
+            <zIndex>60</zIndex>
+        </text>
+        <text name="metaGenre">
+            <pos>0.09 0.318</pos>
+            <origin>0.5 0</origin>
+            <size>0.08 0.025</size>
+            <metadata>genre</metadata>
+            <defaultValue>-</defaultValue>
+            <fontPath>${fontRegular}</fontPath>
+            <fontSize>${fontMetaValue}</fontSize>
+            <color>${textSecondary}</color>
+            <horizontalAlignment>center</horizontalAlignment>
+            <zIndex>60</zIndex>
+        </text>
+
+        <text name="metaYearLabel">
+            <pos>0.15 0.285</pos>
+            <origin>0.5 0</origin>
+            <size>0.07 0.02</size>
+            <text>Year</text>
+            <fontPath>${fontRegular}</fontPath>
+            <fontSize>${fontMetaLabel}</fontSize>
+            <color>${textMuted}</color>
+            <letterCase>uppercase</letterCase>
+            <horizontalAlignment>center</horizontalAlignment>
+            <metadataElement>true</metadataElement>
+            <zIndex>60</zIndex>
+        </text>
+        <datetime name="metaYear">
+            <pos>0.15 0.318</pos>
+            <origin>0.5 0</origin>
+            <size>0.07 0.025</size>
+            <metadata>releasedate</metadata>
+            <fontPath>${fontBold}</fontPath>
+            <fontSize>${fontMetaValue}</fontSize>
+            <color>${textPrimary}</color>
+            <format>%Y</format>
+            <defaultValue>-</defaultValue>
+            <horizontalAlignment>center</horizontalAlignment>
+            <zIndex>60</zIndex>
+        </datetime>
+
+        <text name="metaDeveloperLabel">
+            <pos>0.21 0.285</pos>
+            <origin>0.5 0</origin>
+            <size>0.08 0.02</size>
+            <text>Developer</text>
+            <fontPath>${fontRegular}</fontPath>
+            <fontSize>${fontMetaLabel}</fontSize>
+            <color>${textMuted}</color>
+            <letterCase>uppercase</letterCase>
+            <horizontalAlignment>center</horizontalAlignment>
+            <metadataElement>true</metadataElement>
+            <zIndex>60</zIndex>
+        </text>
+        <text name="metaDeveloper">
+            <pos>0.21 0.318</pos>
+            <origin>0.5 0</origin>
+            <size>0.08 0.025</size>
+            <metadata>developer</metadata>
+            <defaultValue>-</defaultValue>
+            <fontPath>${fontRegular}</fontPath>
+            <fontSize>${fontMetaValue}</fontSize>
+            <color>${textSecondary}</color>
+            <horizontalAlignment>center</horizontalAlignment>
+            <zIndex>60</zIndex>
+        </text>
+
+        <video name="gameMedia">
+            <pos>0.15 0.385</pos>
+            <origin>0.5 0</origin>
+            <maxSize>0.22 0.26</maxSize>
+            <imageType>physicalmedia</imageType>
+            <delay>2.5</delay>
+            <imageCornerRadius>0.006</imageCornerRadius>
+            <videoCornerRadius>0.006</videoCornerRadius>
+            <zIndex>60</zIndex>
+        </video>
+
+        <text name="gameDescription">
+            <pos>0.15 0.680</pos>
+            <origin>0.5 0</origin>
+            <size>0.22 0.210</size>
+            <metadata>description</metadata>
+            <fontPath>${fontRegular}</fontPath>
+            <fontSize>${fontDescription}</fontSize>
+            <color>${textSecondary}</color>
+            <horizontalAlignment>center</horizontalAlignment>
+            <container>true</container>
+            <containerType>vertical</containerType>
+            <zIndex>60</zIndex>
+        </text>
+
+        <grid name="gamelistGrid">
+            <pos>0.30 0.085</pos>
+            <size>0.68 0.845</size>
+            <origin>0 0</origin>
+            <imageType>none</imageType>
+            <itemSize>${gamelistGridItemSize}</itemSize>
+            <itemScale>1.0</itemScale>
+            <itemSpacing>${gamelistGridSpacing}</itemSpacing>
+            <fractionalRows>true</fractionalRows>
+            <itemTransitions>animate</itemTransitions>
+            <rowTransitions>animate</rowTransitions>
+            <unfocusedItemOpacity>1</unfocusedItemOpacity>
+            <unfocusedItemDimming>1</unfocusedItemDimming>
+            <backgroundColor>${panelSolid}</backgroundColor>
+            <backgroundCornerRadius>0.006</backgroundCornerRadius>
+            <backgroundRelativeScale>1.0</backgroundRelativeScale>
+            <selectorImage>./assets/images/selector-border.svg</selectorImage>
+            <selectorColor>${selectorBorder}</selectorColor>
+            <selectorRelativeScale>1.0</selectorRelativeScale>
+            <selectorLayer>top</selectorLayer>
+            <selectorCornerRadius>0.006</selectorCornerRadius>
+            <textRelativeScale>0.92</textRelativeScale>
+            <textColor>${textPrimary}</textColor>
+            <textBackgroundColor>${panelSolid}</textBackgroundColor>
+            <textSelectedColor>${textSelected}</textSelectedColor>
+            <textSelectedBackgroundColor>00000000</textSelectedBackgroundColor>
+            <textBackgroundCornerRadius>0.006</textBackgroundCornerRadius>
+            <fontPath>${fontBold}</fontPath>
+            <fontSize>${fontGrid}</fontSize>
+            <letterCase>none</letterCase>
+            <lineSpacing>1.15</lineSpacing>
+            <textHorizontalScrolling>true</textHorizontalScrolling>
+            <zIndex>50</zIndex>
+        </grid>
+    </view>
+</theme>
