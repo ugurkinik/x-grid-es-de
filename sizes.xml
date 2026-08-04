@@ -1,41 +1,41 @@
 <theme>
     <variables>
-        <fontStatus>0.02</fontStatus>
-        <fontHelp>0.014</fontHelp>
+        <fontStatus>0.021</fontStatus>
+        <fontHelp>0.017</fontHelp>
         <fontGrid>0.024</fontGrid>
-        <fontMetaLabel>0.013</fontMetaLabel>
-        <fontMetaValue>0.018</fontMetaValue>
-        <fontDescription>0.018</fontDescription>
+        <fontMetaLabel>0.014</fontMetaLabel>
+        <fontMetaValue>0.019</fontMetaValue>
+        <fontDescription>0.019</fontDescription>
     </variables>
 
     <fontSize name="small">
         <variables>
-            <fontStatus>0.018</fontStatus>
-            <fontHelp>0.012</fontHelp>
+            <fontStatus>0.019</fontStatus>
+            <fontHelp>0.015</fontHelp>
             <fontGrid>0.02</fontGrid>
-            <fontMetaLabel>0.012</fontMetaLabel>
-            <fontMetaValue>0.015</fontMetaValue>
-            <fontDescription>0.016</fontDescription>
+            <fontMetaLabel>0.013</fontMetaLabel>
+            <fontMetaValue>0.016</fontMetaValue>
+            <fontDescription>0.017</fontDescription>
         </variables>
     </fontSize>
     <fontSize name="medium">
         <variables>
-            <fontStatus>0.02</fontStatus>
-            <fontHelp>0.014</fontHelp>
+            <fontStatus>0.021</fontStatus>
+            <fontHelp>0.017</fontHelp>
             <fontGrid>0.024</fontGrid>
-            <fontMetaLabel>0.013</fontMetaLabel>
-            <fontMetaValue>0.018</fontMetaValue>
-            <fontDescription>0.018</fontDescription>
+            <fontMetaLabel>0.014</fontMetaLabel>
+            <fontMetaValue>0.019</fontMetaValue>
+            <fontDescription>0.019</fontDescription>
         </variables>
     </fontSize>
     <fontSize name="large">
         <variables>
-            <fontStatus>0.022</fontStatus>
-            <fontHelp>0.016</fontHelp>
+            <fontStatus>0.023</fontStatus>
+            <fontHelp>0.019</fontHelp>
             <fontGrid>0.028</fontGrid>
-            <fontMetaLabel>0.015</fontMetaLabel>
-            <fontMetaValue>0.020</fontMetaValue>
-            <fontDescription>0.02</fontDescription>
+            <fontMetaLabel>0.016</fontMetaLabel>
+            <fontMetaValue>0.021</fontMetaValue>
+            <fontDescription>0.021</fontDescription>
         </variables>
     </fontSize>
 </theme>
