@@ -73,7 +73,7 @@
     <view name="system">
         <image name="systemInfoPanelBorder">
             <pos>0.02 0.085</pos>
-            <size>0.26 0.845</size>
+            <size>0.26 0.880</size>
             <path>./assets/images/pixel.png</path>
             <color>${borderColor}</color>
             <cornerRadius>0.006</cornerRadius>
@@ -81,7 +81,7 @@
         </image>
         <image name="systemInfoPanel">
             <pos>0.0216 0.0875</pos>
-            <size>0.2568 0.840</size>
+            <size>0.2568 0.875</size>
             <path>./assets/images/pixel.png</path>
             <color>${panelColor}</color>
             <cornerRadius>0.005</cornerRadius>
@@ -244,7 +244,7 @@
 
         <grid name="systemGrid">
             <pos>0.30 0.085</pos>
-            <size>0.68 0.845</size>
+            <size>0.68 0.880</size>
             <origin>0 0</origin>
             <itemSize>${systemGridItemSize}</itemSize>
             <itemScale>1.0</itemScale>
@@ -281,7 +281,7 @@
     <view name="gamelist">
         <image name="infoPanelBorder">
             <pos>0.02 0.085</pos>
-            <size>0.26 0.845</size>
+            <size>0.26 0.880</size>
             <path>./assets/images/pixel.png</path>
             <color>${borderColor}</color>
             <cornerRadius>0.006</cornerRadius>
@@ -289,7 +289,7 @@
         </image>
         <image name="infoPanel">
             <pos>0.0216 0.0875</pos>
-            <size>0.2568 0.840</size>
+            <size>0.2568 0.875</size>
             <path>./assets/images/pixel.png</path>
             <color>${panelColor}</color>
             <cornerRadius>0.005</cornerRadius>
@@ -410,7 +410,7 @@
 
         <grid name="gamelistGrid">
             <pos>0.30 0.085</pos>
-            <size>0.68 0.845</size>
+            <size>0.68 0.880</size>
             <origin>0 0</origin>
             <imageType>none</imageType>
             <itemSize>${gamelistGridItemSize}</itemSize>
