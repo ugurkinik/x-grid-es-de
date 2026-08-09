@@ -72,16 +72,20 @@ Use **UI Settings → Theme Color Scheme** to pick a palette:
 
 - Monochrome
 - Dark Orange (default)
+- Dark Gold
 - Light Orange
 - Pip-Boy
 - Pocket Gray
 - Super Game Boy
+- Crimson
 - PlayStation 4
 - PlayStation 5
 - Xbox 360
 - Xbox One
 - Switch OLED
 - Gamecube
+- Indigo
+- Purple
 - WII
 
 ## Bundled assets

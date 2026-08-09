@@ -11,6 +11,9 @@
     <colorScheme name="dark-orange">
         <label>Dark Orange</label>
     </colorScheme>
+    <colorScheme name="dark-gold">
+        <label>Dark Gold</label>
+    </colorScheme>
     <colorScheme name="light-orange">
         <label>Light Orange</label>
     </colorScheme>
@@ -22,6 +25,9 @@
     </colorScheme>
     <colorScheme name="sgb-1">
         <label>Super Game Boy</label>
+    </colorScheme>
+    <colorScheme name="crimson">
+        <label>Crimson</label>
     </colorScheme>
     <colorScheme name="ps4">
         <label>PlayStation 4</label>
@@ -40,6 +46,12 @@
     </colorScheme>
     <colorScheme name="gamecube">
         <label>Gamecube</label>
+    </colorScheme>
+    <colorScheme name="indigo">
+        <label>Indigo</label>
+    </colorScheme>
+    <colorScheme name="purple">
+        <label>Purple</label>
     </colorScheme>
     <colorScheme name="wii">
         <label>WII</label>

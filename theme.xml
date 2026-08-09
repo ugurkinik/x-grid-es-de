@@ -50,6 +50,20 @@
             <statusColor>FF8A3D</statusColor>
         </variables>
     </colorScheme>
+    <colorScheme name="dark-gold">
+        <variables>
+            <panelColor>1B1914F0</panelColor>
+            <panelSolid>1B1914</panelSolid>
+            <borderColor>3A3528</borderColor>
+            <bgTint>0B0A07</bgTint>
+            <textPrimary>E8C060</textPrimary>
+            <textSelected>FFF6DC</textSelected>
+            <selectorBorder>968A70</selectorBorder>
+            <textSecondary>C4A040</textSecondary>
+            <textMuted>7A6828</textMuted>
+            <statusColor>E8C060</statusColor>
+        </variables>
+    </colorScheme>
     <colorScheme name="light-orange">
         <variables>
             <panelColor>FFFFFFF0</panelColor>
@@ -104,6 +118,20 @@
             <textSecondary>D9A010</textSecondary>
             <textMuted>8A6810</textMuted>
             <statusColor>F8B800</statusColor>
+        </variables>
+    </colorScheme>
+    <colorScheme name="crimson">
+        <variables>
+            <panelColor>301010F0</panelColor>
+            <panelSolid>301010</panelSolid>
+            <borderColor>682020</borderColor>
+            <bgTint>100404</bgTint>
+            <textPrimary>F85050</textPrimary>
+            <textSelected>FDD0D0</textSelected>
+            <selectorBorder>967070</selectorBorder>
+            <textSecondary>D93838</textSecondary>
+            <textMuted>8A2828</textMuted>
+            <statusColor>F85050</statusColor>
         </variables>
     </colorScheme>
     <colorScheme name="ps4">
@@ -190,6 +218,34 @@
             <statusColor>9B8CE8</statusColor>
         </variables>
     </colorScheme>
+    <colorScheme name="indigo">
+        <variables>
+            <panelColor>16142CF0</panelColor>
+            <panelSolid>16142C</panelSolid>
+            <borderColor>2C2858</borderColor>
+            <bgTint>08070E</bgTint>
+            <textPrimary>7A6CFF</textPrimary>
+            <textSelected>E0DCFF</textSelected>
+            <selectorBorder>7878A0</selectorBorder>
+            <textSecondary>5A50C8</textSecondary>
+            <textMuted>403878</textMuted>
+            <statusColor>7A6CFF</statusColor>
+        </variables>
+    </colorScheme>
+    <colorScheme name="purple">
+        <variables>
+            <panelColor>1E1628F0</panelColor>
+            <panelSolid>1E1628</panelSolid>
+            <borderColor>3A2850</borderColor>
+            <bgTint>0A0810</bgTint>
+            <textPrimary>B080F0</textPrimary>
+            <textSelected>F0E0FF</textSelected>
+            <selectorBorder>8878A0</selectorBorder>
+            <textSecondary>9060C8</textSecondary>
+            <textMuted>604088</textMuted>
+            <statusColor>B080F0</statusColor>
+        </variables>
+    </colorScheme>
     <colorScheme name="wii">
         <variables>
             <panelColor>FFFFFFF0</panelColor>
@@ -204,6 +260,7 @@
             <statusColor>0080B8</statusColor>
         </variables>
     </colorScheme>
+
 
     <variant name="all">
         <include>./layout.xml</include>
