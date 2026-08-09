@@ -11,7 +11,7 @@ X-Grid aims at larger libraries. When you have hundreds or thousands of games, y
 3. Unzip the archive.
 4. Copy the theme folder into `ES-DE/themes/` (that folder must contain `theme.xml` and `capabilities.xml`).
    - On Steam Deck this is typically `/home/deck/ES-DE/themes/`.
-   - The `screenshares/` folder is documentation only; you can omit it when copying.
+   - The `screenshots/` folder is documentation only; you can omit it when copying.
 5. Fully restart ES-DE (a reload is not enough after installing or replacing a theme).
 6. Go to **UI Settings → Theme** and select **X-Grid**.
 
@@ -20,23 +20,27 @@ X-Grid aims at larger libraries. When you have hundreds or thousands of games, y
 
 System view — `[System:M]`, Monochrome:
 
-![System view, medium system grid](screenshares/1.png)
+![System view, medium system grid](screenshots/1.png)
 
 System view — `[System:L]`, Dark Orange:
 
-![System view, large system grid](screenshares/2.png)
+![System view, large system grid](screenshots/2.png)
 
-Game list — `[Game:S]` (4 columns), Light Orange:
+Game list — `[Game:S]` Marquee (4 columns), Light Orange:
 
-![Game list, small game grid](screenshares/3.png)
+![Game list, small game grid, marquee](screenshots/3.png)
 
-Game list — `[Game:M]` (3 columns), Pip-Boy:
+Game list — `[Game:M]` Marquee (3 columns), Pip-Boy:
 
-![Game list, medium game grid](screenshares/4.png)
+![Game list, medium game grid, marquee](screenshots/4.png)
 
-Game list — `[Game:L]` (2 columns), Super Game Boy:
+Game list — `[Game:L]` Marquee (2 columns), Super Game Boy:
 
-![Game list, large game grid](screenshares/5.png)
+![Game list, large game grid, marquee](screenshots/5.png)
+
+Game list — `[Game:M]` Cover (3 columns), Crimson:
+
+![Game list, medium game grid, cover](screenshots/6.png)
 
 
 ## Variants
