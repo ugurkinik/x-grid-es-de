@@ -49,28 +49,105 @@
     <fontSize>medium</fontSize>
     <fontSize>large</fontSize>
 
-    <variant name="sm-gs">
-        <label>[System:M] [Game:S]</label>
+    <variant name="sm-gs-mv">
+        <label>[System:M] [Game:S] Marquee w/ Video</label>
         <selectable>true</selectable>
     </variant>
-    <variant name="sm-gm">
-        <label>[System:M] [Game:M]</label>
+    <variant name="sm-gs-m">
+        <label>[System:M] [Game:S] Marquee wo/ Video</label>
         <selectable>true</selectable>
     </variant>
-    <variant name="sm-gl">
-        <label>[System:M] [Game:L]</label>
+    <variant name="sm-gs-cv">
+        <label>[System:M] [Game:S] Cover w/ Video</label>
         <selectable>true</selectable>
     </variant>
-    <variant name="sl-gs">
-        <label>[System:L] [Game:S]</label>
+    <variant name="sm-gs-c">
+        <label>[System:M] [Game:S] Cover wo/ Video</label>
         <selectable>true</selectable>
     </variant>
-    <variant name="sl-gm">
-        <label>[System:L] [Game:M]</label>
+
+    <variant name="sm-gm-mv">
+        <label>[System:M] [Game:M] Marquee w/ Video</label>
         <selectable>true</selectable>
     </variant>
-    <variant name="sl-gl">
-        <label>[System:L] [Game:L]</label>
+    <variant name="sm-gm-m">
+        <label>[System:M] [Game:M] Marquee wo/ Video</label>
+        <selectable>true</selectable>
+    </variant>
+    <variant name="sm-gm-cv">
+        <label>[System:M] [Game:M] Cover w/ Video</label>
+        <selectable>true</selectable>
+    </variant>
+    <variant name="sm-gm-c">
+        <label>[System:M] [Game:M] Cover wo/ Video</label>
+        <selectable>true</selectable>
+    </variant>
+
+    <variant name="sm-gl-mv">
+        <label>[System:M] [Game:L] Marquee w/ Video</label>
+        <selectable>true</selectable>
+    </variant>
+    <variant name="sm-gl-m">
+        <label>[System:M] [Game:L] Marquee wo/ Video</label>
+        <selectable>true</selectable>
+    </variant>
+    <variant name="sm-gl-cv">
+        <label>[System:M] [Game:L] Cover w/ Video</label>
+        <selectable>true</selectable>
+    </variant>
+    <variant name="sm-gl-c">
+        <label>[System:M] [Game:L] Cover wo/ Video</label>
+        <selectable>true</selectable>
+    </variant>
+
+    <variant name="sl-gs-mv">
+        <label>[System:L] [Game:S] Marquee w/ Video</label>
+        <selectable>true</selectable>
+    </variant>
+    <variant name="sl-gs-m">
+        <label>[System:L] [Game:S] Marquee wo/ Video</label>
+        <selectable>true</selectable>
+    </variant>
+    <variant name="sl-gs-cv">
+        <label>[System:L] [Game:S] Cover w/ Video</label>
+        <selectable>true</selectable>
+    </variant>
+    <variant name="sl-gs-c">
+        <label>[System:L] [Game:S] Cover wo/ Video</label>
+        <selectable>true</selectable>
+    </variant>
+
+    <variant name="sl-gm-mv">
+        <label>[System:L] [Game:M] Marquee w/ Video</label>
+        <selectable>true</selectable>
+    </variant>
+    <variant name="sl-gm-m">
+        <label>[System:L] [Game:M] Marquee wo/ Video</label>
+        <selectable>true</selectable>
+    </variant>
+    <variant name="sl-gm-cv">
+        <label>[System:L] [Game:M] Cover w/ Video</label>
+        <selectable>true</selectable>
+    </variant>
+    <variant name="sl-gm-c">
+        <label>[System:L] [Game:M] Cover wo/ Video</label>
+        <selectable>true</selectable>
+    </variant>
+
+    <variant name="sl-gl-mv">
+        <label>[System:L] [Game:L] Marquee w/ Video</label>
+        <selectable>true</selectable>
+    </variant>
+    <variant name="sl-gl-m">
+        <label>[System:L] [Game:L] Marquee wo/ Video</label>
+        <selectable>true</selectable>
+    </variant>
+    <variant name="sl-gl-cv">
+        <label>[System:L] [Game:L] Cover w/ Video</label>
+        <selectable>true</selectable>
+    </variant>
+    <variant name="sl-gl-c">
+        <label>[System:L] [Game:L] Cover wo/ Video</label>
         <selectable>true</selectable>
     </variant>
 </themeCapabilities>

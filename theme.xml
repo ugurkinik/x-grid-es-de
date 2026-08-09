@@ -205,59 +205,57 @@
         </variables>
     </colorScheme>
 
-    <variant name="sm-gs">
+    <variant name="all">
+        <include>./layout.xml</include>
+    </variant>
+
+    <variant name="sm-gs-mv, sm-gs-m, sm-gs-cv, sm-gs-c">
         <variables>
             <systemGridItemSize>0.221333 0.055</systemGridItemSize>
             <systemGridSpacing>0.008 0.01</systemGridSpacing>
             <gamelistGridItemSize>0.164 0.042</gamelistGridItemSize>
             <gamelistGridSpacing>0.008 0.008</gamelistGridSpacing>
         </variables>
-        <include>./layout.xml</include>
     </variant>
-    <variant name="sm-gm">
+    <variant name="sm-gm-mv, sm-gm-m, sm-gm-cv, sm-gm-c">
         <variables>
             <systemGridItemSize>0.221333 0.055</systemGridItemSize>
             <systemGridSpacing>0.008 0.01</systemGridSpacing>
             <gamelistGridItemSize>0.221333 0.055</gamelistGridItemSize>
             <gamelistGridSpacing>0.008 0.01</gamelistGridSpacing>
         </variables>
-        <include>./layout.xml</include>
     </variant>
-    <variant name="sm-gl">
+    <variant name="sm-gl-mv, sm-gl-m, sm-gl-cv, sm-gl-c">
         <variables>
             <systemGridItemSize>0.221333 0.055</systemGridItemSize>
             <systemGridSpacing>0.008 0.01</systemGridSpacing>
             <gamelistGridItemSize>0.336 0.07</gamelistGridItemSize>
             <gamelistGridSpacing>0.008 0.012</gamelistGridSpacing>
         </variables>
-        <include>./layout.xml</include>
     </variant>
-    <variant name="sl-gs">
+    <variant name="sl-gs-mv, sl-gs-m, sl-gs-cv, sl-gs-c">
         <variables>
             <systemGridItemSize>0.336 0.07</systemGridItemSize>
             <systemGridSpacing>0.008 0.012</systemGridSpacing>
             <gamelistGridItemSize>0.164 0.042</gamelistGridItemSize>
             <gamelistGridSpacing>0.008 0.008</gamelistGridSpacing>
         </variables>
-        <include>./layout.xml</include>
     </variant>
-    <variant name="sl-gm">
+    <variant name="sl-gm-mv, sl-gm-m, sl-gm-cv, sl-gm-c">
         <variables>
             <systemGridItemSize>0.336 0.07</systemGridItemSize>
             <systemGridSpacing>0.008 0.012</systemGridSpacing>
             <gamelistGridItemSize>0.221333 0.055</gamelistGridItemSize>
             <gamelistGridSpacing>0.008 0.01</gamelistGridSpacing>
         </variables>
-        <include>./layout.xml</include>
     </variant>
-    <variant name="sl-gl">
+    <variant name="sl-gl-mv, sl-gl-m, sl-gl-cv, sl-gl-c">
         <variables>
             <systemGridItemSize>0.336 0.07</systemGridItemSize>
             <systemGridSpacing>0.008 0.012</systemGridSpacing>
             <gamelistGridItemSize>0.336 0.07</gamelistGridItemSize>
             <gamelistGridSpacing>0.008 0.012</gamelistGridSpacing>
         </variables>
-        <include>./layout.xml</include>
     </variant>
 
 </theme>

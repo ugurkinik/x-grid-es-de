@@ -296,118 +296,6 @@
             <zIndex>20</zIndex>
         </image>
 
-        <image name="gameLogo">
-            <pos>0.15 0.186</pos>
-            <origin>0.5 0.5</origin>
-            <maxSize>0.22 0.11</maxSize>
-            <imageType>marquee</imageType>
-            <zIndex>60</zIndex>
-        </image>
-
-        <text name="metaGenreLabel">
-            <pos>0.09 0.285</pos>
-            <origin>0.5 0</origin>
-            <size>0.08 0.02</size>
-            <text>Genre</text>
-            <fontPath>${fontRegular}</fontPath>
-            <fontSize>${fontMetaLabel}</fontSize>
-            <color>${textMuted}</color>
-            <letterCase>uppercase</letterCase>
-            <horizontalAlignment>center</horizontalAlignment>
-            <metadataElement>true</metadataElement>
-            <zIndex>60</zIndex>
-        </text>
-        <text name="metaGenre">
-            <pos>0.09 0.318</pos>
-            <origin>0.5 0</origin>
-            <size>0.08 0.025</size>
-            <metadata>genre</metadata>
-            <defaultValue>-</defaultValue>
-            <fontPath>${fontRegular}</fontPath>
-            <fontSize>${fontMetaValue}</fontSize>
-            <color>${textSecondary}</color>
-            <horizontalAlignment>center</horizontalAlignment>
-            <zIndex>60</zIndex>
-        </text>
-
-        <text name="metaYearLabel">
-            <pos>0.15 0.285</pos>
-            <origin>0.5 0</origin>
-            <size>0.07 0.02</size>
-            <text>Year</text>
-            <fontPath>${fontRegular}</fontPath>
-            <fontSize>${fontMetaLabel}</fontSize>
-            <color>${textMuted}</color>
-            <letterCase>uppercase</letterCase>
-            <horizontalAlignment>center</horizontalAlignment>
-            <metadataElement>true</metadataElement>
-            <zIndex>60</zIndex>
-        </text>
-        <datetime name="metaYear">
-            <pos>0.15 0.318</pos>
-            <origin>0.5 0</origin>
-            <size>0.07 0.025</size>
-            <metadata>releasedate</metadata>
-            <fontPath>${fontBold}</fontPath>
-            <fontSize>${fontMetaValue}</fontSize>
-            <color>${textPrimary}</color>
-            <format>%Y</format>
-            <defaultValue>-</defaultValue>
-            <horizontalAlignment>center</horizontalAlignment>
-            <zIndex>60</zIndex>
-        </datetime>
-
-        <text name="metaDeveloperLabel">
-            <pos>0.21 0.285</pos>
-            <origin>0.5 0</origin>
-            <size>0.08 0.02</size>
-            <text>Developer</text>
-            <fontPath>${fontRegular}</fontPath>
-            <fontSize>${fontMetaLabel}</fontSize>
-            <color>${textMuted}</color>
-            <letterCase>uppercase</letterCase>
-            <horizontalAlignment>center</horizontalAlignment>
-            <metadataElement>true</metadataElement>
-            <zIndex>60</zIndex>
-        </text>
-        <text name="metaDeveloper">
-            <pos>0.21 0.318</pos>
-            <origin>0.5 0</origin>
-            <size>0.08 0.025</size>
-            <metadata>developer</metadata>
-            <defaultValue>-</defaultValue>
-            <fontPath>${fontRegular}</fontPath>
-            <fontSize>${fontMetaValue}</fontSize>
-            <color>${textSecondary}</color>
-            <horizontalAlignment>center</horizontalAlignment>
-            <zIndex>60</zIndex>
-        </text>
-
-        <video name="gameMedia">
-            <pos>0.15 0.385</pos>
-            <origin>0.5 0</origin>
-            <maxSize>0.22 0.26</maxSize>
-            <imageType>physicalmedia</imageType>
-            <delay>2.5</delay>
-            <imageCornerRadius>0.006</imageCornerRadius>
-            <videoCornerRadius>0.006</videoCornerRadius>
-            <zIndex>60</zIndex>
-        </video>
-
-        <text name="gameDescription">
-            <pos>0.15 0.680</pos>
-            <origin>0.5 0</origin>
-            <size>0.22 0.210</size>
-            <metadata>description</metadata>
-            <fontPath>${fontRegular}</fontPath>
-            <fontSize>${fontDescription}</fontSize>
-            <color>${textSecondary}</color>
-            <horizontalAlignment>center</horizontalAlignment>
-            <container>true</container>
-            <containerType>vertical</containerType>
-            <zIndex>60</zIndex>
-        </text>
-
         <grid name="gamelistGrid">
             <pos>0.30 0.085</pos>
             <size>0.68 0.880</size>
@@ -443,4 +331,295 @@
             <zIndex>50</zIndex>
         </grid>
     </view>
+
+    <variant name="sm-gs-mv, sm-gs-m, sm-gm-mv, sm-gm-m, sm-gl-mv, sm-gl-m, sl-gs-mv, sl-gs-m, sl-gm-mv, sl-gm-m, sl-gl-mv, sl-gl-m">
+        <view name="gamelist">
+            <image name="gameLogo">
+                <pos>0.15 0.186</pos>
+                <origin>0.5 0.5</origin>
+                <maxSize>0.22 0.11</maxSize>
+                <imageType>marquee</imageType>
+                <zIndex>60</zIndex>
+            </image>
+
+            <text name="metaGenreLabel">
+                <pos>0.09 0.285</pos>
+                <origin>0.5 0</origin>
+                <size>0.08 0.02</size>
+                <text>Genre</text>
+                <fontPath>${fontRegular}</fontPath>
+                <fontSize>${fontMetaLabel}</fontSize>
+                <color>${textMuted}</color>
+                <letterCase>uppercase</letterCase>
+                <horizontalAlignment>center</horizontalAlignment>
+                <metadataElement>true</metadataElement>
+                <zIndex>60</zIndex>
+            </text>
+            <text name="metaGenre">
+                <pos>0.09 0.318</pos>
+                <origin>0.5 0</origin>
+                <size>0.08 0.025</size>
+                <metadata>genre</metadata>
+                <defaultValue>-</defaultValue>
+                <fontPath>${fontRegular}</fontPath>
+                <fontSize>${fontMetaValue}</fontSize>
+                <color>${textSecondary}</color>
+                <horizontalAlignment>center</horizontalAlignment>
+                <zIndex>60</zIndex>
+            </text>
+
+            <text name="metaYearLabel">
+                <pos>0.15 0.285</pos>
+                <origin>0.5 0</origin>
+                <size>0.07 0.02</size>
+                <text>Year</text>
+                <fontPath>${fontRegular}</fontPath>
+                <fontSize>${fontMetaLabel}</fontSize>
+                <color>${textMuted}</color>
+                <letterCase>uppercase</letterCase>
+                <horizontalAlignment>center</horizontalAlignment>
+                <metadataElement>true</metadataElement>
+                <zIndex>60</zIndex>
+            </text>
+            <datetime name="metaYear">
+                <pos>0.15 0.318</pos>
+                <origin>0.5 0</origin>
+                <size>0.07 0.025</size>
+                <metadata>releasedate</metadata>
+                <fontPath>${fontBold}</fontPath>
+                <fontSize>${fontMetaValue}</fontSize>
+                <color>${textPrimary}</color>
+                <format>%Y</format>
+                <defaultValue>-</defaultValue>
+                <horizontalAlignment>center</horizontalAlignment>
+                <zIndex>60</zIndex>
+            </datetime>
+
+            <text name="metaDeveloperLabel">
+                <pos>0.21 0.285</pos>
+                <origin>0.5 0</origin>
+                <size>0.08 0.02</size>
+                <text>Developer</text>
+                <fontPath>${fontRegular}</fontPath>
+                <fontSize>${fontMetaLabel}</fontSize>
+                <color>${textMuted}</color>
+                <letterCase>uppercase</letterCase>
+                <horizontalAlignment>center</horizontalAlignment>
+                <metadataElement>true</metadataElement>
+                <zIndex>60</zIndex>
+            </text>
+            <text name="metaDeveloper">
+                <pos>0.21 0.318</pos>
+                <origin>0.5 0</origin>
+                <size>0.08 0.025</size>
+                <metadata>developer</metadata>
+                <defaultValue>-</defaultValue>
+                <fontPath>${fontRegular}</fontPath>
+                <fontSize>${fontMetaValue}</fontSize>
+                <color>${textSecondary}</color>
+                <horizontalAlignment>center</horizontalAlignment>
+                <zIndex>60</zIndex>
+            </text>
+        </view>
+    </variant>
+
+    <variant name="sm-gs-cv, sm-gs-c, sm-gm-cv, sm-gm-c, sm-gl-cv, sm-gl-c, sl-gs-cv, sl-gs-c, sl-gm-cv, sl-gm-c, sl-gl-cv, sl-gl-c">
+        <view name="gamelist">
+            <image name="gameLogo">
+                <pos>0.15 0.250</pos>
+                <origin>0.5 0.5</origin>
+                <maxSize>0.21 0.28</maxSize>
+                <imageType>cover</imageType>
+                <cornerRadius>0.006</cornerRadius>
+                <zIndex>60</zIndex>
+            </image>
+
+            <text name="metaGenreLabel">
+                <pos>0.09 0.430</pos>
+                <origin>0.5 0</origin>
+                <size>0.08 0.02</size>
+                <text>Genre</text>
+                <fontPath>${fontRegular}</fontPath>
+                <fontSize>${fontMetaLabel}</fontSize>
+                <color>${textMuted}</color>
+                <letterCase>uppercase</letterCase>
+                <horizontalAlignment>center</horizontalAlignment>
+                <metadataElement>true</metadataElement>
+                <zIndex>60</zIndex>
+            </text>
+            <text name="metaGenre">
+                <pos>0.09 0.463</pos>
+                <origin>0.5 0</origin>
+                <size>0.08 0.025</size>
+                <metadata>genre</metadata>
+                <defaultValue>-</defaultValue>
+                <fontPath>${fontRegular}</fontPath>
+                <fontSize>${fontMetaValue}</fontSize>
+                <color>${textSecondary}</color>
+                <horizontalAlignment>center</horizontalAlignment>
+                <zIndex>60</zIndex>
+            </text>
+
+            <text name="metaYearLabel">
+                <pos>0.15 0.430</pos>
+                <origin>0.5 0</origin>
+                <size>0.07 0.02</size>
+                <text>Year</text>
+                <fontPath>${fontRegular}</fontPath>
+                <fontSize>${fontMetaLabel}</fontSize>
+                <color>${textMuted}</color>
+                <letterCase>uppercase</letterCase>
+                <horizontalAlignment>center</horizontalAlignment>
+                <metadataElement>true</metadataElement>
+                <zIndex>60</zIndex>
+            </text>
+            <datetime name="metaYear">
+                <pos>0.15 0.463</pos>
+                <origin>0.5 0</origin>
+                <size>0.07 0.025</size>
+                <metadata>releasedate</metadata>
+                <fontPath>${fontBold}</fontPath>
+                <fontSize>${fontMetaValue}</fontSize>
+                <color>${textPrimary}</color>
+                <format>%Y</format>
+                <defaultValue>-</defaultValue>
+                <horizontalAlignment>center</horizontalAlignment>
+                <zIndex>60</zIndex>
+            </datetime>
+
+            <text name="metaDeveloperLabel">
+                <pos>0.21 0.430</pos>
+                <origin>0.5 0</origin>
+                <size>0.08 0.02</size>
+                <text>Developer</text>
+                <fontPath>${fontRegular}</fontPath>
+                <fontSize>${fontMetaLabel}</fontSize>
+                <color>${textMuted}</color>
+                <letterCase>uppercase</letterCase>
+                <horizontalAlignment>center</horizontalAlignment>
+                <metadataElement>true</metadataElement>
+                <zIndex>60</zIndex>
+            </text>
+            <text name="metaDeveloper">
+                <pos>0.21 0.463</pos>
+                <origin>0.5 0</origin>
+                <size>0.08 0.025</size>
+                <metadata>developer</metadata>
+                <defaultValue>-</defaultValue>
+                <fontPath>${fontRegular}</fontPath>
+                <fontSize>${fontMetaValue}</fontSize>
+                <color>${textSecondary}</color>
+                <horizontalAlignment>center</horizontalAlignment>
+                <zIndex>60</zIndex>
+            </text>
+        </view>
+    </variant>
+
+    <variant name="sm-gs-mv, sm-gm-mv, sm-gl-mv, sl-gs-mv, sl-gm-mv, sl-gl-mv">
+        <view name="gamelist">
+            <video name="gameMedia">
+                <pos>0.15 0.385</pos>
+                <origin>0.5 0</origin>
+                <maxSize>0.22 0.26</maxSize>
+                <imageType>physicalmedia</imageType>
+                <delay>2.5</delay>
+                <imageCornerRadius>0.006</imageCornerRadius>
+                <videoCornerRadius>0.006</videoCornerRadius>
+                <zIndex>60</zIndex>
+            </video>
+            <text name="gameDescription">
+                <pos>0.15 0.680</pos>
+                <origin>0.5 0</origin>
+                <size>0.22 0.210</size>
+                <metadata>description</metadata>
+                <fontPath>${fontRegular}</fontPath>
+                <fontSize>${fontDescription}</fontSize>
+                <color>${textSecondary}</color>
+                <horizontalAlignment>center</horizontalAlignment>
+                <container>true</container>
+                <containerType>vertical</containerType>
+                <zIndex>60</zIndex>
+            </text>
+        </view>
+    </variant>
+
+    <variant name="sm-gs-m, sm-gm-m, sm-gl-m, sl-gs-m, sl-gm-m, sl-gl-m">
+        <view name="gamelist">
+            <image name="gameMedia">
+                <pos>0.15 0.385</pos>
+                <origin>0.5 0</origin>
+                <maxSize>0.22 0.26</maxSize>
+                <imageType>physicalmedia</imageType>
+                <cornerRadius>0.006</cornerRadius>
+                <zIndex>60</zIndex>
+            </image>
+            <text name="gameDescription">
+                <pos>0.15 0.680</pos>
+                <origin>0.5 0</origin>
+                <size>0.22 0.210</size>
+                <metadata>description</metadata>
+                <fontPath>${fontRegular}</fontPath>
+                <fontSize>${fontDescription}</fontSize>
+                <color>${textSecondary}</color>
+                <horizontalAlignment>center</horizontalAlignment>
+                <container>true</container>
+                <containerType>vertical</containerType>
+                <zIndex>60</zIndex>
+            </text>
+        </view>
+    </variant>
+
+    <variant name="sm-gs-cv, sm-gm-cv, sm-gl-cv, sl-gs-cv, sl-gm-cv, sl-gl-cv">
+        <view name="gamelist">
+            <video name="gameMedia">
+                <pos>0.15 0.535</pos>
+                <origin>0.5 0</origin>
+                <maxSize>0.22 0.20</maxSize>
+                <imageType>physicalmedia</imageType>
+                <delay>2.5</delay>
+                <imageCornerRadius>0.006</imageCornerRadius>
+                <videoCornerRadius>0.006</videoCornerRadius>
+                <zIndex>60</zIndex>
+            </video>
+            <text name="gameDescription">
+                <pos>0.15 0.775</pos>
+                <origin>0.5 0</origin>
+                <size>0.22 0.125</size>
+                <metadata>description</metadata>
+                <fontPath>${fontRegular}</fontPath>
+                <fontSize>${fontDescription}</fontSize>
+                <color>${textSecondary}</color>
+                <horizontalAlignment>center</horizontalAlignment>
+                <container>true</container>
+                <containerType>vertical</containerType>
+                <zIndex>60</zIndex>
+            </text>
+        </view>
+    </variant>
+
+    <variant name="sm-gs-c, sm-gm-c, sm-gl-c, sl-gs-c, sl-gm-c, sl-gl-c">
+        <view name="gamelist">
+            <image name="gameMedia">
+                <pos>0.15 0.535</pos>
+                <origin>0.5 0</origin>
+                <maxSize>0.22 0.20</maxSize>
+                <imageType>physicalmedia</imageType>
+                <cornerRadius>0.006</cornerRadius>
+                <zIndex>60</zIndex>
+            </image>
+            <text name="gameDescription">
+                <pos>0.15 0.775</pos>
+                <origin>0.5 0</origin>
+                <size>0.22 0.125</size>
+                <metadata>description</metadata>
+                <fontPath>${fontRegular}</fontPath>
+                <fontSize>${fontDescription}</fontSize>
+                <color>${textSecondary}</color>
+                <horizontalAlignment>center</horizontalAlignment>
+                <container>true</container>
+                <containerType>vertical</containerType>
+                <zIndex>60</zIndex>
+            </text>
+        </view>
+    </variant>
 </theme>

@@ -41,7 +41,7 @@ Game list — `[Game:L]` (2 columns), Super Game Boy:
 
 ## Variants
 
-Use **UI Settings → Theme Variant** to set system and game list sizes together. System is M or L; game is S, M, or L (6 combinations). Grid columns fill the right panel equally:
+Use **UI Settings → Theme Variant** to set system/game list sizes and media style. System is M or L; game is S, M, or L; media is Marquee or Cover, each with or without video (24 combinations). Grid columns fill the right panel equally:
 
 | Size | Columns |
 |------|---------|
@@ -49,12 +49,18 @@ Use **UI Settings → Theme Variant** to set system and game list sizes together
 | Game M / System M | 3 |
 | Game L / System L | 2 |
 
-- `[System:M] [Game:S]`
-- `[System:M] [Game:M]`
-- `[System:M] [Game:L]`
-- `[System:L] [Game:S]`
-- `[System:L] [Game:M]`
-- `[System:L] [Game:L]`
+Media options:
+
+- **Marquee** — game logos (wheels) in the info panel title area
+- **Cover** — box covers in the same area; metadata and description shift down slightly
+- **w/ Video** — physical media art, then video plays (current behavior)
+- **wo/ Video** — physical media art only, no video playback
+
+Examples:
+
+- `[System:M] [Game:S] Marquee w/ Video`
+- `[System:M] [Game:M] Cover wo/ Video`
+- `[System:L] [Game:L] Cover w/ Video`
 
 ## Font size
 
