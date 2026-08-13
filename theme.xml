@@ -262,10 +262,7 @@
     </colorScheme>
 
 
-    <variant name="all">
-        <include>./layout.xml</include>
-    </variant>
-
+    <!-- These blocks must come before the layout include, or the sizes won't apply. -->
     <variant name="sm-gs-mv, sm-gs-m, sm-gs-cv, sm-gs-c">
         <variables>
             <systemGridItemSize>0.221333 0.055</systemGridItemSize>
@@ -313,6 +310,10 @@
             <gamelistGridItemSize>0.336 0.07</gamelistGridItemSize>
             <gamelistGridSpacing>0.008 0.012</gamelistGridSpacing>
         </variables>
+    </variant>
+
+    <variant name="all">
+        <include>./layout.xml</include>
     </variant>
 
 </theme>
