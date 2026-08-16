@@ -6,6 +6,14 @@ X-Grid aims at larger libraries. When you have hundreds or thousands of games, y
 
 ## Install
 
+### Theme downloader (recommended)
+
+1. Open **UI Settings → Theme** in ES-DE.
+2. Choose **Download themes**.
+3. Find **X-Grid** in the list and install it.
+
+### Manual install
+
 1. Open the theme repository on GitHub.
 2. Click the green **Code** button and choose **Download ZIP**.
 3. Unzip the archive.
@@ -18,29 +26,21 @@ X-Grid aims at larger libraries. When you have hundreds or thousands of games, y
 
 ## Screenshots
 
-System view — `[System:M]`, Monochrome:
+System view — `[System:M] [Game:M] Marquee w/ Video`, Monochrome:
 
-![System view, medium system grid](screenshots/1.png)
+![System view, [System:M] [Game:M] Marquee w/ Video variant, Monochrome color scheme](screenshots/x-grid-es-de_01.webp)
 
-System view — `[System:L]`, Dark Orange:
+Gamelist view — `[System:M] [Game:M] Marquee w/ Video`, Monochrome:
 
-![System view, large system grid](screenshots/2.png)
+![Gamelist view, [System:M] [Game:M] Marquee w/ Video variant, Monochrome color scheme](screenshots/x-grid-es-de_02.webp)
 
-Game list — `[Game:S]` Marquee (4 columns), Light Orange:
+System view — `[System:L] [Game:L] Cover wo/ Video`, Super Game Boy:
 
-![Game list, small game grid, marquee](screenshots/3.png)
+![System view, [System:L] [Game:L] Cover wo/ Video variant, Super Game Boy color scheme](screenshots/x-grid-es-de_03.webp)
 
-Game list — `[Game:M]` Marquee (3 columns), Pip-Boy:
+Gamelist view — `[System:L] [Game:L] Cover wo/ Video`, Super Game Boy:
 
-![Game list, medium game grid, marquee](screenshots/4.png)
-
-Game list — `[Game:L]` Marquee (2 columns), Super Game Boy:
-
-![Game list, large game grid, marquee](screenshots/5.png)
-
-Game list — `[Game:M]` Cover (3 columns), Crimson:
-
-![Game list, medium game grid, cover](screenshots/6.png)
+![Gamelist view, [System:L] [Game:L] Cover wo/ Video variant, Super Game Boy color scheme](screenshots/x-grid-es-de_04.webp)
 
 
 ## Variants
