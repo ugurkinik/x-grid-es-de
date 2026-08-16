@@ -270,7 +270,7 @@
             <textBackgroundCornerRadius>0.006</textBackgroundCornerRadius>
             <fontPath>${fontBold}</fontPath>
             <fontSize>${fontGrid}</fontSize>
-            <letterCase>none</letterCase>
+            <letterCase>uppercase</letterCase>
             <lineSpacing>1.15</lineSpacing>
             <textHorizontalScrolling>true</textHorizontalScrolling>
             <fadeAbovePrimary>true</fadeAbovePrimary>
