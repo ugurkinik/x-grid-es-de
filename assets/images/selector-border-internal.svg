@@ -1,0 +1,4 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 400 100">
+    <path fill="#CCDBAA" fill-rule="evenodd" d="M0,0 H400 V100 H0 Z M1.5,1.5 V98.5 H398.5 V1.5 Z"/>
+    <path fill="#5C6345" fill-rule="evenodd" d="M2.5,2.5 H397.5 V97.5 H2.5 Z M4,4 V96 H396 V4 Z"/>
+</svg>
