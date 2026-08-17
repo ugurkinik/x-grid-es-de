@@ -267,7 +267,7 @@
         <variables>
             <systemGridItemSize>0.221333 0.055</systemGridItemSize>
             <systemGridSpacing>0.008 0.01</systemGridSpacing>
-            <gamelistGridItemSize>0.164 0.042</gamelistGridItemSize>
+            <gamelistGridItemSize>0.1635 0.042</gamelistGridItemSize>
             <gamelistGridSpacing>0.008 0.008</gamelistGridSpacing>
         </variables>
     </variant>
@@ -291,7 +291,7 @@
         <variables>
             <systemGridItemSize>0.336 0.07</systemGridItemSize>
             <systemGridSpacing>0.008 0.012</systemGridSpacing>
-            <gamelistGridItemSize>0.164 0.042</gamelistGridItemSize>
+            <gamelistGridItemSize>0.1635 0.042</gamelistGridItemSize>
             <gamelistGridSpacing>0.008 0.008</gamelistGridSpacing>
         </variables>
     </variant>
