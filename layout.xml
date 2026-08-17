@@ -99,6 +99,54 @@
             <zIndex>20</zIndex>
         </image>
 
+        <image name="systemLogoShadowNE">
+            <pos>0.15078 0.18475</pos>
+            <origin>0.5 0.5</origin>
+            <maxSize>0.22 0.11</maxSize>
+            <path>${systemGridImage}</path>
+            <default>${systemGridDefault}</default>
+            <color>${textPrimary}</color>
+            <saturation>0</saturation>
+            <brightness>2</brightness>
+            <opacity>0.24</opacity>
+            <zIndex>57</zIndex>
+        </image>
+        <image name="systemLogoShadowNW">
+            <pos>0.14922 0.18475</pos>
+            <origin>0.5 0.5</origin>
+            <maxSize>0.22 0.11</maxSize>
+            <path>${systemGridImage}</path>
+            <default>${systemGridDefault}</default>
+            <color>${textPrimary}</color>
+            <saturation>0</saturation>
+            <brightness>2</brightness>
+            <opacity>0.24</opacity>
+            <zIndex>57</zIndex>
+        </image>
+        <image name="systemLogoShadowSE">
+            <pos>0.15078 0.18725</pos>
+            <origin>0.5 0.5</origin>
+            <maxSize>0.22 0.11</maxSize>
+            <path>${systemGridImage}</path>
+            <default>${systemGridDefault}</default>
+            <color>${textPrimary}</color>
+            <saturation>0</saturation>
+            <brightness>2</brightness>
+            <opacity>0.24</opacity>
+            <zIndex>57</zIndex>
+        </image>
+        <image name="systemLogoShadowSW">
+            <pos>0.14922 0.18725</pos>
+            <origin>0.5 0.5</origin>
+            <maxSize>0.22 0.11</maxSize>
+            <path>${systemGridImage}</path>
+            <default>${systemGridDefault}</default>
+            <color>${textPrimary}</color>
+            <saturation>0</saturation>
+            <brightness>2</brightness>
+            <opacity>0.24</opacity>
+            <zIndex>57</zIndex>
+        </image>
         <image name="systemLogo">
             <pos>0.15 0.186</pos>
             <origin>0.5 0.5</origin>
@@ -345,6 +393,50 @@
 
     <variant name="sm-gs-mv, sm-gs-m, sm-gm-mv, sm-gm-m, sm-gl-mv, sm-gl-m, sl-gs-mv, sl-gs-m, sl-gm-mv, sl-gm-m, sl-gl-mv, sl-gl-m">
         <view name="gamelist">
+            <image name="gameLogoShadowNE">
+                <pos>0.15078 0.18475</pos>
+                <origin>0.5 0.5</origin>
+                <maxSize>0.22 0.11</maxSize>
+                <imageType>marquee</imageType>
+                <color>${textPrimary}</color>
+                <saturation>0</saturation>
+                <brightness>2</brightness>
+                <opacity>0.24</opacity>
+                <zIndex>57</zIndex>
+            </image>
+            <image name="gameLogoShadowNW">
+                <pos>0.14922 0.18475</pos>
+                <origin>0.5 0.5</origin>
+                <maxSize>0.22 0.11</maxSize>
+                <imageType>marquee</imageType>
+                <color>${textPrimary}</color>
+                <saturation>0</saturation>
+                <brightness>2</brightness>
+                <opacity>0.24</opacity>
+                <zIndex>57</zIndex>
+            </image>
+            <image name="gameLogoShadowSE">
+                <pos>0.15078 0.18725</pos>
+                <origin>0.5 0.5</origin>
+                <maxSize>0.22 0.11</maxSize>
+                <imageType>marquee</imageType>
+                <color>${textPrimary}</color>
+                <saturation>0</saturation>
+                <brightness>2</brightness>
+                <opacity>0.24</opacity>
+                <zIndex>57</zIndex>
+            </image>
+            <image name="gameLogoShadowSW">
+                <pos>0.14922 0.18725</pos>
+                <origin>0.5 0.5</origin>
+                <maxSize>0.22 0.11</maxSize>
+                <imageType>marquee</imageType>
+                <color>${textPrimary}</color>
+                <saturation>0</saturation>
+                <brightness>2</brightness>
+                <opacity>0.24</opacity>
+                <zIndex>57</zIndex>
+            </image>
             <image name="gameLogo">
                 <pos>0.15 0.186</pos>
                 <origin>0.5 0.5</origin>
