@@ -632,7 +632,7 @@
                 <pos>0.15 0.385</pos>
                 <origin>0.5 0</origin>
                 <maxSize>0.22 0.26</maxSize>
-                <imageType>physicalmedia</imageType>
+                <imageType>physicalmedia, titlescreen, screenshots</imageType>
                 <delay>2.5</delay>
                 <imageCornerRadius>0.006</imageCornerRadius>
                 <videoCornerRadius>0.006</videoCornerRadius>
@@ -660,7 +660,7 @@
                 <pos>0.15 0.385</pos>
                 <origin>0.5 0</origin>
                 <maxSize>0.22 0.26</maxSize>
-                <imageType>physicalmedia</imageType>
+                <imageType>physicalmedia, titlescreen, screenshots</imageType>
                 <cornerRadius>0.006</cornerRadius>
                 <zIndex>60</zIndex>
             </image>
@@ -686,7 +686,7 @@
                 <pos>0.15 0.535</pos>
                 <origin>0.5 0</origin>
                 <maxSize>0.22 0.20</maxSize>
-                <imageType>physicalmedia</imageType>
+                <imageType>physicalmedia, titlescreen, screenshots</imageType>
                 <delay>2.5</delay>
                 <imageCornerRadius>0.006</imageCornerRadius>
                 <videoCornerRadius>0.006</videoCornerRadius>
@@ -714,7 +714,7 @@
                 <pos>0.15 0.535</pos>
                 <origin>0.5 0</origin>
                 <maxSize>0.22 0.20</maxSize>
-                <imageType>physicalmedia</imageType>
+                <imageType>physicalmedia, titlescreen, screenshots</imageType>
                 <cornerRadius>0.006</cornerRadius>
                 <zIndex>60</zIndex>
             </image>
